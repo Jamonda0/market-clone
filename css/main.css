@@ -34,28 +34,32 @@ main {
 }
 
 .item-list__info div {
-    margin-top: 10px;
-  }
+  margin-top: 10px;
+}
 
 .item-list__info-meta {
   font-size: smaller;
   color: rgba(0, 0, 0, 0.3);
 }
 
-
-
 .item-list__info-price {
   font-weight: bold;
 }
 
-.write-btn{
-    background-color: #fe6f0f;
-    color: white;
-    padding: 10px 14px 10px 15px;
-    font-size: 15px;
-    border-radius: 25px;
-    position: fixed;
-    bottom: 120px;
-    right: 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.write-btn {
+  background-color: var(--button-primary);
+  color: white;
+  padding: 10px 14px 10px 15px;
+  font-size: 15px;
+  border-radius: 25px;
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: var(--button-hover);
 }
